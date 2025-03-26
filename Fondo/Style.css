@@ -1,0 +1,18 @@
+body{
+    font-family: Times New Roman , Times, serif;
+    margin:0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(116, 168, 162);
+    transition: background-color 0.5s ease;
+    }
+    .contenedor{
+        text-align: center;
+        padding: 20px;
+        background-color: rgb(190, 243, 243);
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(65, 114, 125, 0.1);
+    }
