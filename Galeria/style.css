@@ -1,0 +1,50 @@
+body{
+    font-family:'Times New Roman', Times, serif;
+    background-color: rgb(231, 227, 181);
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.galeria{
+    background-color: rgb(230, 228, 213);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0);
+    text-align: center;
+    width: 80%;
+    max-width: 800px;
+}
+h1{
+    color: rgb(70, 67, 49);
+}
+.imagen-container img{
+    width: 100px;
+    max-width: 600px;
+    border-radius: 10px;
+    transition: opacity 0.5s ease-in-out;
+}
+.botones{
+    margin-top: 20px;
+}
+button{
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: rgb(180, 181, 103);
+    color: azure;
+    border: none;
+    cursor: pointer;
+    margin: 1 10px;
+    transition: background-color 0.3s ease;
+}
+button:hover{
+    background-color: rgb(114, 116, 54);
+}
+p{
+    margin-top: 20px;
+    font-size: 16px;
+    color: black;
+}
+span{
+    font-weight: bold;
+}
