@@ -1,0 +1,16 @@
+body {
+    height: 100%;
+    margin: 0;
+    background-color: #14213d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+canvas, div {
+    border: solid 1px white;
+    background-color: #0f182b;
+}
+h1 {
+    color: white;
+}
